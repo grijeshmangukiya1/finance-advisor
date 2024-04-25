@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+  position: relative;
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(24, 25, 24, 0.412), rgba(19, 19, 19, 0.462)),url("images/MENT.jpg");
+    background-size: cover;
+    background-color:#9CFF2E;
+  }
+  .nav a {
+      background: none;
+      padding: 15px;
+      padding-right:2%;
+      letter-spacing: 3px;
+      text-align: center;
+      text-transform: capitalize;
+      color: #f8f9fa;
+      display: inline;
+      text-decoration: none;
+      transition: 0.5s;
+      font-weight: 400;
+      font-weight: bold;
+      font-size: medium;
+  }
+  
+  
+.nav{
+    background-color:#38E54D;
+    font-size: 12px;
+    color: #f8f9fa;
+    font-family: -apple-system;
+    position: fixed;
+    width: 100vw;
+    height: 54px;
+    padding: 0 70px 0  0;
+
+    
+}
+.na:hover {
+  color: #3712bd;
+}
+
+.logo{
+  position: fixed;
+    padding: 15px;
+}
+.space{
+  padding-left: 50%;
+  width: 100vw;
+  position: fixed;
+  right: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.title{
+    color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.t1{
+    padding-top: 230px;
+}
+.line{
+    height: 0.5rem;
+    background: linear-gradient(
+      to left,
+      #2192FF,
+      #38E54D,
+      #9CFF2E,
+      #FDFF00,
+      #2192FF
+    );
+  }
+  .compro{
+    background: #E0E5EC;
+    display: inline-flex;
+    width:100%;
+    height: 30rem;
+
+  
+    }
